@@ -1,0 +1,32 @@
+
+body{
+    background-color: #6e7379;
+}
+
+.banner{
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(248, 245, 245);
+    background-color: #868E96;
+    margin: auto;
+    border-top: .01rem solid white;
+    border-bottom: .01rem solid white;
+}
+
+.navbar{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+li{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.about{
+    background-color: steelblue;
+    color: #F8F5F5;
+}
+p{
+    margin-top: 1rem;
+}
