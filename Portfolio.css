@@ -1,21 +1,33 @@
 
 body{
-    background-color: #6e7379;
+    background-color: #364f6d;
 }
+
 
 .banner{
-    font-weight: bolder;
     text-align: center;
     color: rgb(248, 245, 245);
-    background-color: #868E96;
+    background-color: #859dbd;
     margin: auto;
-    border-top: .01rem solid white;
-    border-bottom: .01rem solid white;
+    border-top: .01rem solid #b7c3ce;
+    border-bottom: .01rem solid #adb7c5;
+    position: sticky;
+    top: 0;
 }
 
+
+#down{
+    width: 5rem;
+    height: 2.5rem;
+}
 .navbar{
+    position: sticky;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
     font-size: 1.5rem;
-    font-weight: lighter;
+    font-weight: bold;
+    background-color: #15263a;
 }
 
 li{
@@ -23,8 +35,27 @@ li{
     margin-right: 1rem;
 }
 
-.about{
-    background-color: steelblue;
+.About{
+    background-color: rgb(75, 125, 180);
+    color: #F8F5F5;
+    border-bottom: .01rem solid rgb(71, 116, 184);
+}
+.Education{
+    background-color: rgb(80, 120, 180);
+    color: #F8F5F5;
+    border-bottom: .01rem solid rgb(80, 113, 185);
+    
+}
+.Project{
+    background-color: rgb(85, 115, 180);
+    color: #F8F5F5;;
+}
+.Portfolio{
+    background-color: rgb(90, 110, 180);
+    color: #F8F5F5;;
+}
+.Contact{
+    background-color: rgb(95, 105, 180);
     color: #F8F5F5;
 }
 p{
